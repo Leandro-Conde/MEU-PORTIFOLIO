@@ -25,11 +25,11 @@
 }
 
 body.escuro {
-  --fundo-principal: #222222;
+  --fundo-principal: #111111;
   --texto: #e0e0e0;
   --texto-inverso:#333333;
-  --destaque: #ff5522;
-  --destaque-inverso: #a73917;
+  --destaque: #c41ea0;
+  --destaque-inverso: #ff00c8;
   --fundo-card: #444444;
 }
 
@@ -38,6 +38,10 @@ body {
   background-color: var(--fundo-principal);
   color: var(--texto);
   transition: background-color 0.5s, color 0.5s;
+}
+
+strong {
+  text-decoration: underline;
 }
 
 header {
